@@ -1,0 +1,2 @@
+My job on the team was getting the web scrpaer working, while Cole worked on getting  Twilio working, and Liam worked on 
+documentation and GUI. 
