@@ -1,5 +1,5 @@
 This is the site for scraping: 
-https://katu.com/traffic/incident-reports-section
+https://weather.com/weather/today/l/97202:4:US
 
 Sites we used for help
 https://www.dataschool.io/python-web-scraping-of-president-trumps-lies/
