@@ -46,17 +46,7 @@ def main():
     print("Temperature is unchanged")
   else:
     print("The temperature is now "+temp+" degrees")
-    message = client.messages \
-        .create(
-             body='The temperature is now '+temp+' degrees',
-             from_=sender,
-             to=yournumber
-        )
-
-    print(message.sid)
-  
-  
-  
+    
   f = open("temperature.txt", "w")
   f.write(temp)
   f.close()
