@@ -18,7 +18,9 @@
             <a href="output.html">Output</a>
         </div>
         
-        <br>Hudson will create the algorithm that stores the temperature to a file and compares the new temperature to it on each pass, deciding if it has changed or not.
+        <br>Hudson will create an algorithm that checks the temperature from the latest scrape agaist the temperature from the last scrpae, which is stored to a local "temperature.txt" file. 
+        <br>The program uses a simple if statment to either send a text to the user (Cole worked on this part) or do nothing if there is no change. The program will then overwrite the temperature
+        <br>in temperature.txt with the new one, and the process is repeated every X seconds, where X is decided by the user (but has to be > 30).
         
         <!-- <p><img src="Overview flowchart.png" alt="Overview flowchart"></p> -->
         
